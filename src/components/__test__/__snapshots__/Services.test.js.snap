@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Services page should render 1`] = `
+<div>
+  Nos Services
+</div>
+`;

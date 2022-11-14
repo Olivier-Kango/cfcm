@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the  page should render 1`] = `
+<div>
+  Médias
+</div>
+`;
+
+exports[`Testing the Contact page should render 1`] = `
+<div>
+  Contact
+</div>
+`;
+
+exports[`Testing the Medias page should render 1`] = `
+<div>
+  Médias
+</div>
+`;

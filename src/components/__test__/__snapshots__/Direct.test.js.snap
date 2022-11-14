@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Contact page should render 1`] = `
+<div>
+  Contact
+</div>
+`;
+
+exports[`Testing the Direct page should render 1`] = `
+<div>
+  Direct
+</div>
+`;
