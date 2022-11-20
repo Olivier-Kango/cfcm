@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => (
   <div>
-    Nos Services
+    Nos Programmes
   </div>
 );
 
