@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[C.F.C.M_Church](https://)
+[C.F.C.M_Church](https://cfcm.netlify.app/)
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ To run this app on your local computer you need the browser (Google Chrome is th
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://).
+Feel free to check the [issues page](https://github.com/Olivier-Kango/cfcm/issues/new).
 
 ## Show your support
 
