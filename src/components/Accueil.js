@@ -1,4 +1,4 @@
-import '../styling/Accueil.css';
+import '../styling/Accueil.scss';
 import React from 'react';
 
 const Accueil = () => (
