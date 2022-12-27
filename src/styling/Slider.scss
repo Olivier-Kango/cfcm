@@ -85,3 +85,42 @@
 .prev {
   left: 1rem;
 }
+
+@media (min-width: 768px) {
+  .slider {
+    // height: 90vh;
+    img {
+      display: block;
+      margin: 0 auto;
+      transform: translateX(0);
+    }
+  }
+
+  .arrow {
+    border: 2px solid rgb(29, 155, 240);;
+    color: rgb(29, 155, 240);
+  }
+
+  .next {
+    right: 4rem;
+  }
+  
+  .prev {
+    left: 4rem;
+  }
+
+  .content {
+    position: absolute;
+    top: 28%;
+    left: 0%;
+    right: 0;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    transform: translateY(-50%);
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.45);
+    animation: slide-up 1s ease 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
