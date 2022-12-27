@@ -25,18 +25,24 @@
         border-radius: 10px;
         padding: 4%;
         background: white;
-        margin: 15px 20px;
+        margin: 2% 5%;
       }
 
       .date {
         font-family: 'COCOGOOSE', sans-serif;
         font-size: 1.5rem;
-        margin: 20px;
+        margin: 2% 5%;
       }
 
       .footer {
-        margin: 20px;
+        margin: 2% 5%;
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    color: rgb(29, 155, 240);
   }
 }
