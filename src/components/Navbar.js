@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.jpg';
+import '../styling/Navbar.scss';
 
 const logoss = {
   width: '12%',
@@ -17,7 +18,7 @@ const Navbar = () => (
         <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"><img src={logo} alt="logo_cfcm" style={logos} /></span>
       </Link>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler ml-auto custom-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
