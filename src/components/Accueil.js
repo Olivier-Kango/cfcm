@@ -5,11 +5,10 @@ const Accueil = () => (
   <div className="div-accueil">
     <section className="home">
       <div className="div-home">
-        <p className="description-title"><i>&quot;Bonjour! Nous sommes une église appelée pour travailler sur le retour dans le vrai sacerdoce&quot;</i></p>
         <h1 className="main-title">
-          Communauté de la foi chrétienne dans le monde
+          Communauté de la Foi Chrétienne dans le Monde
           <br />
-          C.F.C.M
+          <span>C.F.C.M</span>
         </h1>
         <p className="home-content">
           &ldquo;Et ce que tu as entendu de moi en présence de beaucoup de témoins,
