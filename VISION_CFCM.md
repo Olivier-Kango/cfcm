@@ -1,6 +1,6 @@
 # VISION ET MISSION
 
-Nous sommes appelés pour travailler sur le retour dans le vrai sacerdoce. 
+Nous sommes appelés à travailler sur le retour dans le vrai sacerdoce. 
 
 Comment faire ?
 
