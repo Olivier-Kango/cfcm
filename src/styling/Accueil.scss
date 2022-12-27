@@ -1,5 +1,4 @@
 .div-accueil {
-
   .home {
     overflow: hidden;
     margin: 0;
@@ -11,21 +10,13 @@
 
     .div-home {
       width: 100%;
-      padding: 10px 20px;
-
-      .description-title {
-        font-size: 18px;
-        margin: 10px 0 4px 0;
-        animation-duration: 1.7s;
-        animation-name: moveDown300px;
-        animation-direction: alternate-reverse;
-      }
+      padding: 10px 0;
 
       .main-title {
         font-family: 'COCOGOOSE', sans-serif;
         font-size: 1.7rem;
         font-weight: bold;
-        margin: 0;
+        margin: 0 20px 5px 20px;
         text-align: center;
       }
 
@@ -34,13 +25,17 @@
         border-radius: 10px;
         padding: 4%;
         background: white;
-        margin: 15px 0;
+        margin: 15px 20px;
       }
 
       .date {
         font-family: 'COCOGOOSE', sans-serif;
         font-size: 1.5rem;
-        margin: 4% 0;
+        margin: 20px;
+      }
+
+      .footer {
+        margin: 20px;
       }
     }
   }
