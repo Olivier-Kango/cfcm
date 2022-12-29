@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Direct = () => (
-  <div>
+  <div className="direct">
     Direct
   </div>
 );
