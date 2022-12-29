@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styling/Extensions.scss';
 
 const Extensions = () => (
   <div className="extensions">
