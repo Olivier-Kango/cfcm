@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Medias = () => (
-  <div>
+  <div className="medias">
     Médias
   </div>
 );
