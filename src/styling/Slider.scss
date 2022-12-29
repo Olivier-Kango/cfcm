@@ -7,7 +7,7 @@ $main-color: #0072bc;
   overflow: hidden;
 
   img {
-    height: 95vh;
+    max-height: 95vh;
     transform: translateX(-32%);
     animation: trans 15s;
     display: inherit;
@@ -16,7 +16,8 @@ $main-color: #0072bc;
   .main-title {
     position: absolute;
     color: $main-color;
-    margin: 0;
+    margin: -1px 0;
+    padding: 2px 0;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -67,7 +68,7 @@ $main-color: #0072bc;
 
   100% {
     visibility: visible;
-    top: 79%;
+    top: 73%;
   }
 }
 
@@ -135,13 +136,14 @@ $main-color: #0072bc;
 @media (min-width: 992px) {
   .content {
     right: 0;
-    width: 60%;
+    width: 65%;
     margin: auto;
   }
 
   .slider {
     img {
-      width: 100vw;
+      width: 100%;
+      height: 95vw;
       display: block;
       margin: 0 auto;
       transform: translateX(0);
@@ -175,7 +177,7 @@ $main-color: #0072bc;
 
   @keyframes slide-up {
     100% {
-      top: 85%;
+      top: 80%;
     }
   }
 }
