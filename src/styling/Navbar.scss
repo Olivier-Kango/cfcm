@@ -1,9 +1,13 @@
+$border-color: rgba(102, 102, 102, 0.2);
+$text-color: #666;
+$main-color: #0a66c2;
+
 .custom-toggler.navbar-toggler {
-  border: 2.5px solid rgb(29, 155, 240);
+  border: 2.5px solid $main-color;
 }
 
 .custom-toggler.navbar-toggler:focus {
-  box-shadow: 0 0 0 2px rgb(29, 155, 240);
+  box-shadow: 0 0 0 2px $main-color;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -11,4 +15,35 @@
     url(
       "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(29, 155, 240)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"
     );
+}
+
+.logo-cfcm {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0;
+    border-bottom: 0.5px solid $border-color;
+
+    .container-fluid {
+      padding: 0 5%;
+
+      .logo-cfcm {
+        width: 30%;
+      }
+
+      #navbarSupportedContent {
+        #nav-ul {
+          .nav-item span {
+            color: $text-color;
+          }
+
+          .nav-item span:hover {
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
 }
