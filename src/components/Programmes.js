@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styling/Programmes.scss';
 
 const Programmes = () => (
-  <div className="service">
+  <div className="programmes">
     Nos Programmes
   </div>
 );
