@@ -1,13 +1,15 @@
 $main-color: #0072bc;
 
 .slider {
-  width: 100%;
+  width: 100vw;
   height: 95vh;
   position: relative;
   overflow: hidden;
 
   img {
-    max-height: 95vw;
+    width: unset;
+    height: 150%;
+    padding-left: 0;
     transform: translateX(-32%);
     animation: trans 15s;
     display: inherit;
@@ -143,7 +145,8 @@ $main-color: #0072bc;
   .slider {
     img {
       width: 100%;
-      height: 95vw;
+      height: unset;
+      padding-top: 0;
       display: block;
       margin: 0 auto;
       transform: translateX(0);
