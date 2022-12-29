@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styling/Formation.scss';
 
 const Formation = () => (
   <div className="formation">
