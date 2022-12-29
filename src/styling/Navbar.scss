@@ -1,14 +1,104 @@
+$border-color: rgba(102, 102, 102, 0.2);
+$text-color: #666;
+$main-color: #0072bc;
+
+.navbar {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
 .custom-toggler.navbar-toggler {
-  border: 2.5px solid rgb(29, 155, 240);
+  border: 2.5px solid $main-color;
 }
 
 .custom-toggler.navbar-toggler:focus {
-  box-shadow: 0 0 0 2px rgb(29, 155, 240);
+  box-shadow: 0 0 0 2px $main-color;
 }
 
 .custom-toggler .navbar-toggler-icon {
   background-image:
     url(
-      "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(29, 155, 240)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"
+      "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 114, 188)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"
     );
+}
+
+.logo-cfcm {
+  width: 4rem;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0;
+    border-bottom: 0.5px solid $border-color;
+
+    .container-fluid {
+      padding: 0 5%;
+
+      .logo-cfcm {
+        width: 3rem;
+      }
+
+      #navbarSupportedContent {
+        #nav-ul {
+          gap: 10px;
+          align-items: center;
+
+          .nav-item span {
+            color: $text-color;
+          }
+
+          .nav-item span.currentLink {
+            text-decoration: underline;
+            color: black;
+          }
+
+          .nav-item span.direct {
+            background: #a82a31;
+            background-image: linear-gradient(to top, #d83843, #a82a31);
+            margin-top: 3px;
+            height: 38px !important;
+            line-height: 38px !important;
+            display: inherit;
+            color: #fff;
+            padding: 0 23px;
+            border-width: 0;
+            border-style: solid;
+            border-color: #fff;
+            -webkit-transition: all 0.2s;
+            -webkit-border-radius: 25px;
+          }
+
+          .nav-item span.directLink {
+            background: #2eb735;
+            background-image: linear-gradient(to top, #44ed44, #289d28);
+            margin-top: 3px;
+            height: 38px !important;
+            line-height: 38px !important;
+            display: inherit;
+            color: #fff;
+            padding: 0 23px;
+            border-width: 0;
+            border-style: solid;
+            border-color: #fff;
+            -webkit-transition: all 0.2s;
+            -webkit-border-radius: 25px;
+          }
+
+          .nav-item span.direct:hover {
+            background-image: linear-gradient(to bottom, #d83843, #a82a31);
+            color: #fff;
+          }
+
+          .nav-item span.directLink:hover {
+            background-image: linear-gradient(to bottom, #44ed44, #289d28);
+            color: #fff;
+          }
+
+          .nav-item span:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
 }

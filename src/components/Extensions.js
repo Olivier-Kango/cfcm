@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styling/Extensions.scss';
 
 const Extensions = () => (
-  <div>
+  <div className="extensions">
     Nos Extensions
   </div>
 );

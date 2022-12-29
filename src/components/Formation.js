@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styling/Formation.scss';
 
 const Formation = () => (
-  <div>
+  <div className="formation">
     <strong>Formation</strong>
     <br />
     - Modules des enseignements

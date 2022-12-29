@@ -11,7 +11,7 @@ const Slider = () => {
 
   const autoScroll = true;
   let slideInterval;
-  const intervalTime = 5000;
+  const intervalTime = 7000;
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
@@ -38,6 +38,9 @@ const Slider = () => {
 
   return (
     <div className="slider">
+      <h1 className="main-title">
+        Communauté de la Foi Chrétienne dans le Monde
+      </h1>
       <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => (

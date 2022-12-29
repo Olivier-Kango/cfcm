@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import Services from '../Services';
+import Programmes from '../Programmes';
 
 describe('Testing the Services page', () => {
   test('should render', () => {
-    render(<Services />);
-    const about = screen.getByText(/Nos Services/i);
+    render(<Programmes />);
+    const about = screen.getByText(/Nos Programmes/i);
     expect(about).toMatchSnapshot();
   });
 });

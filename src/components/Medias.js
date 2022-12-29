@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styling/Medias.scss';
 
 const Medias = () => (
-  <div>
+  <div className="medias">
     Médias
   </div>
 );

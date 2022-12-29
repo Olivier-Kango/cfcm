@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styling/Direct.scss';
 
 const Direct = () => (
-  <div>
+  <div className="direct">
     Direct
   </div>
 );

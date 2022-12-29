@@ -6,9 +6,6 @@ const Accueil = () => (
   <div className="div-accueil">
     <section className="home">
       <div className="div-home">
-        <h1 className="main-title">
-          Communauté de la Foi Chrétienne dans le Monde
-        </h1>
         <Slider />
         <p className="home-content">
           Lorem
