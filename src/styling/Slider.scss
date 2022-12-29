@@ -184,3 +184,11 @@ $main-color: #0072bc;
     }
   }
 }
+
+@media (max-width: 768px) {
+  .slider {
+    img {
+      height: 95vh;
+    }
+  }
+}
