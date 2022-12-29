@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Formation = () => (
-  <div>
+  <div className="formation">
     <strong>Formation</strong>
     <br />
     - Modules des enseignements
