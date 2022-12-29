@@ -1,3 +1,5 @@
+$main-color: #0a66c2;
+
 .div-accueil {
   .home {
     overflow: hidden;
@@ -14,6 +16,7 @@
 
       .main-title {
         font-family: 'COCOGOOSE', sans-serif;
+        color: $main-color;
         font-size: 1.7rem;
         font-weight: bold;
         margin: 0 6px 5px 6px;
@@ -21,7 +24,7 @@
       }
 
       .home-content {
-        border: 4px solid rgb(29, 155, 240);
+        border: 4px solid $main-color;
         border-radius: 10px;
         padding: 4%;
         background: white;
@@ -43,6 +46,6 @@
 
 @media (min-width: 768px) {
   .main-title {
-    color: rgb(29, 155, 240);
+    color: $main-color;
   }
 }
