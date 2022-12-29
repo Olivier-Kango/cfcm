@@ -58,7 +58,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link to="/direct" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/direct') ? 'currentLink' : ''}>Direct</span>
+                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/direct') ? 'directLink' : 'direct'}>Direct</span>
               </Link>
             </li>
             <li className="nav-item">
