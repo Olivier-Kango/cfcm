@@ -4,8 +4,7 @@ $main-color: #0072bc;
 
 .navbar {
   margin: 0;
-  padding: 0 0.5rem;
-  position: absolute;
+  padding: 0rem 0.5rem;
 
   #navbarSupportedContent {
     #nav-ul {
@@ -92,7 +91,6 @@ $main-color: #0072bc;
   .navbar {
     padding: 0;
     border-bottom: 0.5px solid $border-color;
-    position: fixed;
 
     .container-fluid {
       padding: 0 5%;
