@@ -27,8 +27,8 @@ $main-color: #0072bc;
     text-align: center;
     font-family: Gill Sans, sans-serif;
     font-size: 1.6rem;
-    font-weight: bold;
-    background: rgba(255, 255, 255, 0.9);
+    font-weight: 520;
+    background: rgba(255, 255, 255, 0.65);
     z-index: 9;
   }
 }
@@ -155,8 +155,6 @@ $main-color: #0072bc;
 
     .main-title {
       font-size: 2.5rem;
-      background: rgba(255, 255, 255, 0.9);
-      font-weight: 600;
       margin: 0;
     }
 
