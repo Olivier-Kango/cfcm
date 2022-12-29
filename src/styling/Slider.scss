@@ -1,5 +1,4 @@
-$main-color: #0a66c2;
-$arrow-color: rgb(29, 155, 240);
+$main-color: #0072bc;
 
 .slider {
   width: 100%;
@@ -40,7 +39,7 @@ $arrow-color: rgb(29, 155, 240);
 @keyframes slide-up {
   0% {
     visibility: visible;
-    top: 15rem;
+    top: 25rem;
   }
 
   100% {
@@ -64,9 +63,9 @@ $arrow-color: rgb(29, 155, 240);
 }
 
 .arrow {
-  border: 2px solid white;
+  border: 2px solid $main-color;
   border-radius: 50%;
-  background: transparent;
+  background: $main-color;
   color: white;
   width: 2rem;
   height: 2rem;
@@ -99,16 +98,16 @@ $arrow-color: rgb(29, 155, 240);
   }
 
   .arrow {
-    border: 2px solid $arrow-color;
-    color: $arrow-color;
+    border: 2px solid $main-color;
+    color: white;
   }
 
   .next {
-    right: 4rem;
+    right: 5%;
   }
 
   .prev {
-    left: 4rem;
+    left: 5%;
   }
 
   .content {
