@@ -1,6 +1,8 @@
-$main-color: #0a66c2;
+$main-color: #0072bc;
 
 .div-accueil {
+  padding-top: 4rem;
+
   .home {
     overflow: hidden;
     margin: 0;
@@ -41,11 +43,5 @@ $main-color: #0a66c2;
         margin: 2% 5%;
       }
     }
-  }
-}
-
-@media (min-width: 768px) {
-  .main-title {
-    color: $main-color;
   }
 }
