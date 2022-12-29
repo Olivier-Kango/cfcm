@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Extensions = () => (
-  <div>
+  <div className="extensions">
     Nos Extensions
   </div>
 );
