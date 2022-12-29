@@ -13,7 +13,7 @@ const sliderData = [
   {
     image: slideFour,
     heading: 'Notre Vision',
-    desc: "L'Implentation des église dans d'autres coins et recoins du monde par rapport à l'orientation du Saint - Esprit.",
+    desc: "L'Implentation des églises dans d'autres coins et recoins du monde par rapport à l'orientation du Saint - Esprit.",
   },
   {
     image: slideThree,
