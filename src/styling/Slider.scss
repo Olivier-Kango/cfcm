@@ -19,7 +19,7 @@ $main-color: #0072bc;
     position: absolute;
     color: $main-color;
     margin: 0;
-    padding: 4px 0 2px 0;
+    padding: 6px 0 2px 0;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -48,7 +48,7 @@ $main-color: #0072bc;
   position: absolute;
   top: 40%;
   left: 0;
-  margin: auto 1rem;
+  margin: auto 5rem;
   padding: 1rem 2rem;
   transform: translateY(-50%);
   opacity: 0;
@@ -190,5 +190,9 @@ $main-color: #0072bc;
     img {
       height: 95vh;
     }
+  }
+
+  .content {
+    margin: auto 2rem;
   }
 }
