@@ -5,6 +5,68 @@ $main-color: #0072bc;
 .navbar {
   margin: 0;
   padding: 0 0.5rem;
+  position: absolute;
+
+  #navbarSupportedContent {
+    #nav-ul {
+      .nav-item span {
+        color: $text-color;
+      }
+
+      .nav-item span.currentLink {
+        text-decoration: underline;
+        color: black;
+      }
+
+      .nav-item span.direct {
+        background: #a82a31;
+        background-image: linear-gradient(to top, #d83843, #a82a31);
+        margin-top: 3px;
+        height: 38px !important;
+        line-height: 38px !important;
+        width: fit-content;
+        display: inherit;
+        color: #fff;
+        padding: 0 23px;
+        border-width: 0;
+        border-style: solid;
+        border-color: #fff;
+        -webkit-transition: all 0.2s;
+        -webkit-border-radius: 25px;
+      }
+
+      .nav-item span.directLink {
+        background: #2eb735;
+        background-image: linear-gradient(to top, #44ed44, #289d28);
+        margin-top: 3px;
+        height: 38px !important;
+        line-height: 38px !important;
+        width: fit-content;
+        display: inherit;
+        color: #fff;
+        padding: 0 23px;
+        border-width: 0;
+        border-style: solid;
+        border-color: #fff;
+        -webkit-transition: all 0.2s;
+        -webkit-border-radius: 25px;
+      }
+
+      .nav-item span.direct:hover {
+        background-image: linear-gradient(to bottom, #d83843, #a82a31);
+        color: #fff;
+      }
+
+      .nav-item span.directLink:hover {
+        background-image: linear-gradient(to bottom, #44ed44, #289d28);
+        color: #fff;
+      }
+
+      .nav-item span:hover {
+        color: black;
+      }
+    }
+  }
 }
 
 .custom-toggler.navbar-toggler {
@@ -30,6 +92,7 @@ $main-color: #0072bc;
   .navbar {
     padding: 0;
     border-bottom: 0.5px solid $border-color;
+    position: fixed;
 
     .container-fluid {
       padding: 0 5%;
@@ -42,61 +105,6 @@ $main-color: #0072bc;
         #nav-ul {
           gap: 10px;
           align-items: center;
-
-          .nav-item span {
-            color: $text-color;
-          }
-
-          .nav-item span.currentLink {
-            text-decoration: underline;
-            color: black;
-          }
-
-          .nav-item span.direct {
-            background: #a82a31;
-            background-image: linear-gradient(to top, #d83843, #a82a31);
-            margin-top: 3px;
-            height: 38px !important;
-            line-height: 38px !important;
-            display: inherit;
-            color: #fff;
-            padding: 0 23px;
-            border-width: 0;
-            border-style: solid;
-            border-color: #fff;
-            -webkit-transition: all 0.2s;
-            -webkit-border-radius: 25px;
-          }
-
-          .nav-item span.directLink {
-            background: #2eb735;
-            background-image: linear-gradient(to top, #44ed44, #289d28);
-            margin-top: 3px;
-            height: 38px !important;
-            line-height: 38px !important;
-            display: inherit;
-            color: #fff;
-            padding: 0 23px;
-            border-width: 0;
-            border-style: solid;
-            border-color: #fff;
-            -webkit-transition: all 0.2s;
-            -webkit-border-radius: 25px;
-          }
-
-          .nav-item span.direct:hover {
-            background-image: linear-gradient(to bottom, #d83843, #a82a31);
-            color: #fff;
-          }
-
-          .nav-item span.directLink:hover {
-            background-image: linear-gradient(to bottom, #44ed44, #289d28);
-            color: #fff;
-          }
-
-          .nav-item span:hover {
-            color: black;
-          }
         }
       }
     }
