@@ -18,7 +18,7 @@ $main-color: #0072bc;
 .custom-toggler .navbar-toggler-icon {
   background-image:
     url(
-      "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(10, 102, 194)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"
+      "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 114, 188)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"
     );
 }
 
@@ -35,12 +35,13 @@ $main-color: #0072bc;
       padding: 0 5%;
 
       .logo-cfcm {
-        width: 4rem;
+        width: 3rem;
       }
 
       #navbarSupportedContent {
         #nav-ul {
           gap: 10px;
+          align-items: center;
 
           .nav-item span {
             color: $text-color;
@@ -49,6 +50,48 @@ $main-color: #0072bc;
           .nav-item span.currentLink {
             text-decoration: underline;
             color: black;
+          }
+
+          .nav-item span.direct {
+            background: #a82a31;
+            background-image: linear-gradient(to top, #d83843, #a82a31);
+            margin-top: 3px;
+            height: 38px !important;
+            line-height: 38px !important;
+            display: inherit;
+            color: #fff;
+            padding: 0 23px;
+            border-width: 0;
+            border-style: solid;
+            border-color: #fff;
+            -webkit-transition: all 0.2s;
+            -webkit-border-radius: 25px;
+          }
+
+          .nav-item span.directLink {
+            background: #2eb735;
+            background-image: linear-gradient(to top, #44ed44, #289d28);
+            margin-top: 3px;
+            height: 38px !important;
+            line-height: 38px !important;
+            display: inherit;
+            color: #fff;
+            padding: 0 23px;
+            border-width: 0;
+            border-style: solid;
+            border-color: #fff;
+            -webkit-transition: all 0.2s;
+            -webkit-border-radius: 25px;
+          }
+
+          .nav-item span.direct:hover {
+            background-image: linear-gradient(to bottom, #d83843, #a82a31);
+            color: #fff;
+          }
+
+          .nav-item span.directLink:hover {
+            background-image: linear-gradient(to bottom, #44ed44, #289d28);
+            color: #fff;
           }
 
           .nav-item span:hover {
