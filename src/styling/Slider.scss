@@ -16,7 +16,7 @@ $main-color: #0072bc;
   .main-title {
     position: absolute;
     color: $main-color;
-    margin: -1px 0;
+    margin: 0;
     padding: 2px 0;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +24,7 @@ $main-color: #0072bc;
     right: 0;
     text-align: center;
     font-family: Gill Sans, sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: bold;
     background: rgba(255, 255, 255, 0.9);
     z-index: 9;
@@ -68,7 +68,7 @@ $main-color: #0072bc;
 
   100% {
     visibility: visible;
-    top: 73%;
+    top: 70%;
   }
 }
 
