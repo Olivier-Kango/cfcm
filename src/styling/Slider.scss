@@ -2,13 +2,31 @@ $main-color: #0072bc;
 
 .slider {
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   position: relative;
   overflow: hidden;
 
   img {
-    height: 75vh;
-    transform: translateX(-19%);
+    height: 95vh;
+    transform: translateX(-32%);
+    animation: trans 15s;
+    display: inherit;
+  }
+
+  .main-title {
+    position: absolute;
+    color: $main-color;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 9;
   }
 }
 
@@ -28,23 +46,28 @@ $main-color: #0072bc;
   top: 40%;
   left: 0;
   margin: auto 1rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   transform: translateY(-50%);
   opacity: 0;
   background: rgba(0, 0, 0, 0.45);
   animation: slide-up 1s ease 0.5s;
   animation-fill-mode: forwards;
+  border-radius: 10px;
+
+  h2 {
+    font-family: Gill Sans, sans-serif;
+  }
 }
 
 @keyframes slide-up {
   0% {
     visibility: visible;
-    top: 25rem;
+    top: 20rem;
   }
 
   100% {
     visibility: visible;
-    top: 66%;
+    top: 79%;
   }
 }
 
@@ -63,21 +86,22 @@ $main-color: #0072bc;
 }
 
 .arrow {
-  border: 2px solid $main-color;
+  border: 2px solid white;
   border-radius: 50%;
-  background: $main-color;
+  background: transparent;
   color: white;
   width: 2rem;
   height: 2rem;
   cursor: pointer;
   position: absolute;
-  top: 38%;
-  z-index: 999;
+  top: 45%;
+  z-index: 9;
 }
 
 .arrow:hover {
-  color: #777;
-  border-color: #777;
+  color: $main-color;
+  border-color: white;
+  background: white;
 }
 
 .next {
@@ -88,18 +112,57 @@ $main-color: #0072bc;
   left: 1rem;
 }
 
-@media (min-width: 768px) {
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+@keyframes trans {
+  from {
+    transform: translateX(-25%) scale(1, 1);
+  }
+
+  to {
+    transform: translateX(-40%) scale(1.15, 1.15);
+  }
+}
+
+@media (min-width: 992px) {
+  .content {
+    right: 0;
+    width: 60%;
+    margin: auto;
+  }
+
   .slider {
     img {
+      width: 100vw;
       display: block;
       margin: 0 auto;
       transform: translateX(0);
+      animation: zoom 15s;
     }
-  }
 
-  .arrow {
-    border: 2px solid $main-color;
-    color: white;
+    .main-title {
+      font-size: 2.5rem;
+      background: rgba(255, 255, 255, 0.9);
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .content {
+      p {
+        font-size: 1.1rem;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+      }
+    }
   }
 
   .next {
@@ -110,18 +173,9 @@ $main-color: #0072bc;
     left: 5%;
   }
 
-  .content {
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    right: 0;
-    width: 50%;
-    margin: auto;
-    padding: 1rem;
-    transform: translateY(-50%);
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.45);
-    animation: slide-up 1s ease 0.5s;
-    animation-fill-mode: forwards;
+  @keyframes slide-up {
+    100% {
+      top: 85%;
+    }
   }
 }
