@@ -3,19 +3,15 @@ import { Link } from 'react-router-dom';
 import logo from '../images/logo.jpg';
 import '../styling/Navbar.scss';
 
-const logoss = {
-  width: '12%',
-};
-
 const logos = {
-  width: '100%',
+  width: '15%',
 };
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg bg-white">
     <div className="container-fluid">
-      <Link to="/" className="navbar-brand" style={logoss}>
-        <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"><img src={logo} alt="logo_cfcm" style={logos} /></span>
+      <Link to="/" className="navbar-brand" style={logos}>
+        <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"><img src={logo} alt="logo_cfcm" className="logo-cfcm" /></span>
       </Link>
       <button
         className="navbar-toggler ml-auto custom-toggler"
@@ -31,7 +27,7 @@ const Navbar = () => (
         />
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-ul">
           <li className="nav-item">
             <Link to="/" className="nav-link active">
               <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Accueil</span>
