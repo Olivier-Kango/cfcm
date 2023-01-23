@@ -3,20 +3,26 @@ import '../styling/Formation.scss';
 
 const Formation = () => (
   <div className="formation">
-    <strong>Formation</strong>
+    <h1>Formation</h1>
     <br />
-    - Modules des enseignements
+    <h3>Modules des enseignements</h3>
     <br />
-    -Cours IBTM
+    <h3>
+      Cours IBTM&nbsp;
+      <i>(Institut Biblique et Théologique pour la Mission)</i>
+    </h3>
     <br />
-    <i>Institut Biblique et Théologique pour la Mission</i>
+    <h3>Croissance de l&apos;église</h3>
     <br />
-    Croissance de l&apos;église
-    - ### Gagneur d&apos;âmes
-    - ### Affermissements
-    - ### Enseignement sur la prière
-    - ### Enseignement sur l&apos;évangelisation
-    - ### Enseignement sur l&apos;Adoration
+    - Gagneur d&apos;âmes
+    <br />
+    - Affermissements
+    <br />
+    - Enseignement sur la prière
+    <br />
+    - Enseignement sur l&apos;évangelisation
+    <br />
+    - Enseignement sur l&apos;Adoration
   </div>
 );
 
