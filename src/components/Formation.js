@@ -18,6 +18,7 @@ const Formation = () => (
     <br />
     <strong>- Affermissements</strong>
     Remerciement
+    Objectif
     <br />
     - Enseignement sur la prière
     <br />
