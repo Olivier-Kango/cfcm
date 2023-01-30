@@ -20,6 +20,7 @@ const Formation = () => (
     Remerciement
     Objectif
     Comment étudier la foi chrétienne selon la version biblique
+    Le péché
     <br />
     - Enseignement sur la prière
     <br />
