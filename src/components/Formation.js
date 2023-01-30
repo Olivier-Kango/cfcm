@@ -19,6 +19,7 @@ const Formation = () => (
     <strong>- Affermissements</strong>
     Remerciement
     Objectif
+    Comment étudier la foi chrétienne selon la version biblique
     <br />
     - Enseignement sur la prière
     <br />
