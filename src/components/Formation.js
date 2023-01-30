@@ -24,6 +24,7 @@ const Formation = () => (
     Chap II L&apos;amour de Dieu
     Chap III Le don du salut
     Chap IV Les principes d&apos;une vraie vie chrétienne
+    Chap VI La manière de vaincre le diable
     <br />
     - Enseignement sur la prière
     <br />
