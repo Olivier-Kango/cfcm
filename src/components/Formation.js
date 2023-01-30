@@ -20,9 +20,10 @@ const Formation = () => (
     Remerciement
     Objectif
     Comment étudier la foi chrétienne selon la version biblique
-    Le péché
-    L&apos;amour de Dieu
-    Le don du salut
+    Chap I Le péché
+    Chap II L&apos;amour de Dieu
+    Chap III Le don du salut
+    Chap IV Les principes d&apos;une vraie vie chrétienne
     <br />
     - Enseignement sur la prière
     <br />
