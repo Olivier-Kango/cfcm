@@ -17,6 +17,7 @@ const Formation = () => (
     - Gagneur d&apos;âmes
     <br />
     <strong>- Affermissements</strong>
+    Remerciement
     <br />
     - Enseignement sur la prière
     <br />
