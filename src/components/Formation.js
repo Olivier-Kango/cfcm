@@ -26,6 +26,7 @@ const Formation = () => (
     Chap IV Les principes d&apos;une vraie vie chrétienne
     Chap VI La manière de vaincre le diable
     Chap VII La manière de vivre avec Dieu comme son enfant
+    Chap VIII La prière
     <br />
     - Enseignement sur la prière
     <br />
