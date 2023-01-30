@@ -22,6 +22,7 @@ const Formation = () => (
     Comment étudier la foi chrétienne selon la version biblique
     Le péché
     L&apos;amour de Dieu
+    Le don du salut
     <br />
     - Enseignement sur la prière
     <br />
