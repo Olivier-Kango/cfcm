@@ -21,6 +21,7 @@ const Formation = () => (
     Objectif
     Comment étudier la foi chrétienne selon la version biblique
     Le péché
+    L&apos;amour de Dieu
     <br />
     - Enseignement sur la prière
     <br />
