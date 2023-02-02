@@ -25,7 +25,7 @@ const Formation = () => (
     Chap III Le don du salut
     Chap IV Les principes d&apos;une vraie vie chrétienne
     Chap VI La manière de vaincre le diable
-    Chap VII La manière de vivre avec Dieu comme son enfant
+    {/* Chap VII La manière de vivre avec Dieu comme son enfant */}
     <br />
     - Enseignement sur la prière
     <br />
