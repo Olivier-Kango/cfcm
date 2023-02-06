@@ -11,8 +11,6 @@ const Programmes = () => (
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;2. Chaque mardi de 7h30 à 9h30&apos; : culte des Mamans
     <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;7. Du lundi au vendredi : de 5h30 à 6h30 : Culte matinal
-    <br />
     &nbsp;&nbsp;&nbsp;&nbsp;3. Chaque vendredi de 15h30 à 17h30: Etudes bibliques
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;4. Chaque Samedi de 7h30 à 10h30 : culte des Papas
@@ -22,6 +20,8 @@ const Programmes = () => (
     <br />
     &nbsp;&nbsp;&nbsp;
     6. Chaque Premier et Troisième Dimanche de 13h00&apos; à 14h30&apos; Culte des jeunes
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;7. Du lundi au vendredi : de 5h30 à 6h30 : Culte matinal
     <br />
     8. LES AFFERMISSEMENTS SE PASSENT TOUS LES JOURS, A TOUT MOMENT SELON VOTRE DISPONIBILITÉ
   </div>
