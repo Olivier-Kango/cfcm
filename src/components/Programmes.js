@@ -6,6 +6,9 @@ const Programmes = () => (
     <h2>Nos Programmes</h2>
     Programmes de l&apos;église
     <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Dimanche : de 9h00&apos; à 12h30&apos;
+    culte d&apos;adoration
+    <br />
     &nbsp;&nbsp;&nbsp;&nbsp;7. Du lundi au vendredi : de 5h30 à 6h30 : Culte matinal
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;2. Chaque mardi de 7h30 à 9h30&apos; : culte des Mamans
@@ -16,9 +19,6 @@ const Programmes = () => (
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;
     5. Prière d&apos;Intercession de 09h00 à 12h00
-    <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;1. Dimanche : de 9h00&apos; à 12h30&apos;
-    culte d&apos;adoration
     <br />
     &nbsp;&nbsp;&nbsp;
     6. Chaque Premier et Troisième Dimanche de 13h00&apos; à 14h30&apos; Culte des jeunes
