@@ -9,9 +9,9 @@ const Programmes = () => (
     &nbsp;&nbsp;&nbsp;&nbsp;1. Dimanche : de 9h00&apos; à 12h30&apos;
     culte d&apos;adoration
     <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;7. Du lundi au vendredi : de 5h30 à 6h30 : Culte matinal
-    <br />
     &nbsp;&nbsp;&nbsp;&nbsp;2. Chaque mardi de 7h30 à 9h30&apos; : culte des Mamans
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;7. Du lundi au vendredi : de 5h30 à 6h30 : Culte matinal
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;3. Chaque vendredi de 15h30 à 17h30: Etudes bibliques
     <br />
