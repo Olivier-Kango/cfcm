@@ -1,6 +1,20 @@
 .programmes {
   padding: 5rem 5%;
   background: #345C86;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
+  text-align: center;
+
+  .programme-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0 auto;
+
+    .programme-item {
+      width: 300px;
+      background: green;
+    }
+  }
 }
