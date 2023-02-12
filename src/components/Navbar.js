@@ -66,6 +66,11 @@ const Navbar = () => {
                 <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/contact') ? 'currentLink' : ''}>Contact</span>
               </Link>
             </li>
+            <li className="nav-item">
+              <a href="https://web.facebook.com/profile.php?id=100082159523264" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-facebook-official" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
