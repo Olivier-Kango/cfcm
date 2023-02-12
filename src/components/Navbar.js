@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a href="https://web.facebook.com/profile.php?id=100082159523264" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-facebook-official" />
+                <i className="fa fa-facebook-official fa-2x" />
               </a>
             </li>
           </ul>
