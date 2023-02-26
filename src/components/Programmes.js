@@ -17,18 +17,21 @@ const Programmes = () => (
         Culte des Jeunes de 13h00 à 14h30
       </div>
       <div className="programme-item">
+        <img src="https://via.placeholder.com/150x150" alt="Church" />
         <h3>MARDI</h3>
         Culte des Mamans
         <br />
         De 7h30 à 9h30
       </div>
       <div className="programme-item">
+        <img src="https://via.placeholder.com/150x150" alt="Church" />
         <h3>VENDREDI</h3>
         Etudes bibliques
         <br />
         De 15h30 à 17h30
       </div>
       <div className="programme-item">
+        <img src="https://via.placeholder.com/150x150" alt="Church" />
         <h3>SAMEDI</h3>
         Culte des Papas de 7h30 à 09h00
         <br />
