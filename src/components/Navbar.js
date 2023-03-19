@@ -37,9 +37,15 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/nos-extensions" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/nos-extensions') ? 'currentLink' : ''}>Nos extensions</span>
-              </Link>
+              {/* <Link to="/nos-extensions" className="nav-link active">
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  className={(pathname === '/nos-extensions') ? 'currentLink' : ''}
+                >
+                  Nos extensions
+                </span>
+              </Link> */}
             </li>
             <li className="nav-item">
               <Link to="/nos-programmes" className="nav-link active">
