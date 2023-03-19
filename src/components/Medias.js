@@ -3,7 +3,7 @@ import '../styling/Medias.scss';
 
 const Medias = () => (
   <div className="medias">
-    Médias
+    Espace Médias under construction
   </div>
 );
 
