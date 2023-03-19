@@ -3,7 +3,7 @@ import '../styling/Direct.scss';
 
 const Direct = () => (
   <div className="direct">
-    Direct
+    Direct under construction
   </div>
 );
 
