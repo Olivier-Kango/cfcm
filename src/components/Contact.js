@@ -3,7 +3,7 @@ import '../styling/Contact.scss';
 
 const Contact = () => (
   <div className="contact">
-    Contact
+    Contact page under construction
   </div>
 );
 
