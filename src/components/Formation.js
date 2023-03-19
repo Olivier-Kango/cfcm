@@ -1,38 +1,28 @@
 import React from 'react';
 import '../styling/Formation.scss';
 
-const Formation = () => (
-  <div className="formation">
-    <h1>Formation</h1>
-    <br />
-    <h3>Modules des enseignements</h3>
-    <br />
-    <h3>
-      Cours IBTM&nbsp;
-      <i>(Institut Biblique et Théologique pour la Mission)</i>
-    </h3>
-    <br />
-    <h3>Croissance de l&apos;église</h3>
-    <br />
-    - Gagneur d&apos;âmes
-    <br />
-    <strong>- Affermissements</strong>
-    Remerciement
-    Objectif
-    Comment étudier la foi chrétienne selon la version biblique
-    Chap I Le péché
-    Chap II L&apos;amour de Dieu
-    Chap III Le don du salut
-    Chap IV Les principes d&apos;une vraie vie chrétienne
-    {/* Chap VI La manière de vaincre le diable */}
-    {/* Chap VII La manière de vivre avec Dieu comme son enfant */}
-    <br />
-    - Enseignement sur la prière
-    <br />
-    - Enseignement sur l&apos;évangelisation
-    <br />
-    - Enseignement sur l&apos;Adoration
-  </div>
-);
+const Formation = () => {
+  const pdfFileName = 'Afferm_franc.pdf';
+  const pdfFileSw = 'Afferm_swah.pdf';
+  const folderName = 'pdf';
+  const pdfPath = `${process.env.PUBLIC_URL}/${folderName}/${pdfFileName}`;
+  const pdfPathSw = `${process.env.PUBLIC_URL}/${folderName}/${pdfFileSw}`;
+
+  return (
+    <div className="formation">
+      <h1>Nos Formations</h1>
+      <br />
+      <h3>Les Affermissements</h3>
+      <br />
+      <a href={pdfPath} download>
+        Télécharger le PDF en français
+      </a>
+      <br />
+      <a href={pdfPathSw} download>
+        Télécharger le PDF en swahili
+      </a>
+    </div>
+  );
+};
 
 export default Formation;
