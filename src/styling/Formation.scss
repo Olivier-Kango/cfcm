@@ -1,3 +1,35 @@
+$primary-color: #0072bc;
+
 .formation {
   padding: 5rem 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $primary-color;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $primary-color;
+  }
+
+  a {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: $primary-color;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
 }
