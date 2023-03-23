@@ -57,11 +57,17 @@ const Navbar = () => {
                 <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/formation') ? 'currentLink' : ''}>Formation</span>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/medias" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/medias') ? 'currentLink' : ''}> Espace Médias</span>
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target=".navbar-collapse.show"
+                  className={(pathname === '/medias') ? 'currentLink' : ''}
+                >
+                  Espace Médias
+                </span>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/direct" className="nav-link active">
                 <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/direct') ? 'directLink' : 'direct-button'}>Direct</span>
