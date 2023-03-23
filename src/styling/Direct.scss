@@ -1,3 +1,30 @@
 .direct {
   padding: 5rem 5%;
+  text-align: center;
+  background: #345c86;
+  min-height: 100vh;
+
+  .direct-counter {
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 100%;
+    padding: 10px 23px;
+    background: #a82a31;
+    background-image: linear-gradient(to top, #d83843, #a82a31);
+    margin-top: 3px;
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    color: #fff;
+    border-width: 0;
+    border-style: solid;
+    border-color: #fff;
+    -webkit-transition: all 0.2s;
+    -webkit-border-radius: 25px;
+  }
+
+  a {
+    color: white;
+  }
 }

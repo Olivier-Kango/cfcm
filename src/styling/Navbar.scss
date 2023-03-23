@@ -17,7 +17,7 @@ $main-color: #0072bc;
         color: black;
       }
 
-      .nav-item span.direct {
+      .nav-item span.direct-button {
         background: #a82a31;
         background-image: linear-gradient(to top, #d83843, #a82a31);
         margin-top: 3px;
@@ -51,7 +51,7 @@ $main-color: #0072bc;
         -webkit-border-radius: 25px;
       }
 
-      .nav-item span.direct:hover {
+      .nav-item span.direct-button:hover {
         background-image: linear-gradient(to bottom, #d83843, #a82a31);
         color: #fff;
       }
