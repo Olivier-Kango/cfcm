@@ -66,4 +66,10 @@ POURQUOI ETUDIER L'IBTM?
 - Pour être un bon serviteur équilibré et utile dans la mission
 - Pour s'adapter dans la mission actuelle
 
+PROGRAMME DE L'IBTM
+  Le programme de l'IBTM prend deux ans de formation avec deux vacations (jour et soir)
+- Jour: 08h00 - 14h00 (Du Lundi au Vendredi)
+- Soir: 16h00 - 19h00 (Du Lundi au Vendredi)
+Chaque année comporte 4 sessions de cours. 
 
+COURS A CARACTERE
