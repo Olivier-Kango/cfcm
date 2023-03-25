@@ -51,4 +51,11 @@ Adresse: IBTM Nord Kivu, Ville de Goma, Commune de Karisimbi, Av. Kasindi II, N�
 Contact: (+243)995-865-149; (+243)997-604-877;
 E-mail: IbtmCfcm@gmail.com
 
+Institut Biblique et Théologique pour la Mission (I.B.T.M) est une institution chrétienne se trouvant en R.D.Congo dans la province du Nord-Kivu, ville de Goma dans la commune de Karisimbi sur les Avenues de Kasindi II, Q. Katoyi, n° 51.
+
+L'IBTM est à sa deuxième promotion dans les inscriptions des nouveaux candidats débutent du 05 décembre 2019 au 17 Janvier 2020. Elles fonctionnent sous le LeaderShip de l'église C.F.C.M qui prévoit l'éducation théologique aux serviteurs appelés pour la mission.
+
+VISION
+L'IBTM a pour vision d'équiper les serviteurs de Dieu pour renverser la pyramide mal battu d'où, le retour dans le vrai Sacerdoce afin d'impacter pour la gloire de Dieu.
+
 
