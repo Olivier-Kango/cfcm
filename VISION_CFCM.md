@@ -61,4 +61,9 @@ L'IBTM a pour vision d'équiper les serviteurs de Dieu pour renverser la pyramid
 MISSION
 L'IBTM a pour but principale d'informer et de former les serviteurs de Dieu dans leur ministère afin d'être utile pour l'Oeuvre de Dieu.
 
+POURQUOI ETUDIER L'IBTM?
+- Pour être équiper dans son ministère
+- Pour être un bon serviteur équilibré et utile dans la mission
+- Pour s'adapter dans la mission actuelle
+
 
