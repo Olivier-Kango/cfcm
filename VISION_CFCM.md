@@ -44,3 +44,11 @@ Implentation des église dans d'autres coins et recoins du monde par rapport à 
 
 # Media
 - **Poadcasts** : La partie visuelle sera directement sur les réseaux sociaux (Youtube, Facebook, Instagram)
+
+
+INSTITUT BIBLIQUE ET THEOLOGIQUE POUR LA MISSION
+Adresse: IBTM Nord Kivu, Ville de Goma, Commune de Karisimbi, Av. Kasindi II, N°51. Q. Katoyi
+Contact: (+243)995-865-149; (+243)997-604-877;
+E-mail: IbtmCfcm@gmail.com
+
+
