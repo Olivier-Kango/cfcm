@@ -58,4 +58,7 @@ L'IBTM est à sa deuxième promotion dans les inscriptions des nouveaux candidat
 VISION
 L'IBTM a pour vision d'équiper les serviteurs de Dieu pour renverser la pyramide mal battu d'où, le retour dans le vrai Sacerdoce afin d'impacter pour la gloire de Dieu.
 
+MISSION
+L'IBTM a pour but principale d'informer et de former les serviteurs de Dieu dans leur ministère afin d'être utile pour l'Oeuvre de Dieu.
+
 
