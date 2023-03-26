@@ -8,7 +8,7 @@ const Contact = () => (
     </h4>
     <br />
     <p>
-      Adresse: C.F.C.M, République Démocratique du Congo
+      Adresse: C.F.C.M, R.D.Congo
       {' '}
       <br />
       Nord Kivu, Ville de Goma, Commune de Karisimbi, Av. Kasindi II, N°51.

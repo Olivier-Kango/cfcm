@@ -131,8 +131,6 @@ const Formation = () => {
             et quatre (4) mois de pratique ministérielle.
           </p>
           <p>
-            INSTITUT BIBLIQUE ET THEOLOGIQUE POUR LA MISSION
-            <br />
             Adresse: IBTM Nord Kivu, Ville de Goma, Commune de Karisimbi, Av. Kasindi II, N°51.
             {' '}
             Q. Katoyi
