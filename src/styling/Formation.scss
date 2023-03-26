@@ -1,21 +1,160 @@
-$primary-color: #0072bc;
+$primary-color: #336c8f;
 
 .formation {
   padding: 5rem 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Alliance No\.1,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,"sans-serif",Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;
 
   h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: $primary-color;
+  }
+
+  h2,
+  .formation-para {
+    color: black;
   }
 
   h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: $primary-color;
+  }
+
+  .download-container {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.105);
+    box-shadow: inset 1px 3px 15px rgba(0,0,0,.25);
+    border-radius: 10px;
+    border: 1px solid rgba(51,91,122,.23);
+
+    .download {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      animation: bounce 2s ease-in-out infinite;
+
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    }
+
+    .download:hover {
+      animation: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .download-container {
+      .download {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+  }
+
+  .cours-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    color: #3c5a72;
+
+    .cours {
+      box-shadow: 1px 3px 15px rgba(0,0,0,.25);
+      border-radius: 10px;
+      border: 1px solid rgba(51,91,122,.23);
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+
+      & > div:first-of-type {
+        padding: 25px;
+      }
+
+      & > div:last-of-type {
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s ease-in-out;
+        background-clip: content-box;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45%;
+        height: 100%;
+    
+        &:hover {
+          transform: scale(1.025);
+        }
+      }
+
+      .first {
+        background-image: url('../images/formations/bible.jpg');
+      }
+
+      .second {
+        background-image: url('../images/formations/theo.jpg');
+      }
+
+      .third {
+        background-image: url('../images/formations/min.jpg');
+      }
+
+      .fourth {
+        background-image: url('../images/formations/gen.jpg');
+      }
+
+      hr {
+        width: 4.5rem;
+        margin: 1rem 0px 2rem;
+        background: rgba(51,91,122,.23);
+        border: 2px solid rgba(51,91,122,.23);
+      }
+
+      ul {
+        text-align: left;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .cours {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        height: auto;
+
+        & > div:first-of-type {
+          height: auto;
+          padding: 25px;
+        }
+
+        & > div:last-of-type {
+          width: 100%;
+          height: 250px;
+          position: relative;
+          top: auto;
+          right: auto;
+          bottom: auto;
+          left: auto;
+        }
+      }
+    }
   }
 
   a {
@@ -27,9 +166,11 @@ $primary-color: #0072bc;
     border-radius: 0.3rem;
     text-decoration: none;
     transition: background-color 0.3s;
+    transition: all 0.3s ease;
 
     &:hover {
       background-color: darken($primary-color, 10%);
+      letter-spacing: 1px;
     }
   }
 }

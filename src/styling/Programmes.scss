@@ -14,6 +14,7 @@
 
     .programme-item {
       width: 300px;
+      transition: transform 0.3s ease-in-out;
 
       img {
         width: 180px;
@@ -22,6 +23,11 @@
         object-fit: cover;
         margin-bottom: 10px;
       }
+    }
+
+    .programme-item:hover {
+      transform: scale(1.1);
+      cursor: pointer;
     }
   }
 }
