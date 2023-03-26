@@ -54,7 +54,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link to="/formation" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/formation') ? 'currentLink' : ''}>Formation</span>
+                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/formation') ? 'currentLink' : ''}>Nos Formations</span>
               </Link>
             </li>
             {/* <li className="nav-item">
