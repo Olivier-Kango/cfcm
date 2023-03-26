@@ -72,4 +72,37 @@ PROGRAMME DE L'IBTM
 - Soir: 16h00 - 19h00 (Du Lundi au Vendredi)
 Chaque année comporte 4 sessions de cours. 
 
-COURS A CARACTERE
+COURS A CARACTERE BIBLIQUE
+- Affermissements: 45h
+- Bibliologie (Histoire de la bible et étude systématique de la bible): 90h
+- Géographie biblique: 45h
+- Doctrine de la bible et de l'église: 90h
+- Tabernacle et le culte: 45h
+- Prière: 30h
+
+COURS A CARACTERE THEOLOGIQUE
+- Doctrine de l'évolution et de la création: 30h
+- Anthropologie et angéologie: 30h
+- Christologie et sotériologie: 30h
+- Pneumatologie et action dans l'église: 45h
+- Etique et déontologie: 30h
+- Secte et déviation spirituelle: 45h
+- Eschatologie: 30h
+- Méthode d'enseignement (Herméneutique, Exégèse et Homilétique): 90h
+
+COURS A CARACTERE MINISTERIEL
+- Leadership spirituel (model chrétien): 45h
+- Leadership ecclésiastique: 45h
+- Mission commando (Missiologie pratique): 45h
+- Missiologie et implantation (évangélisation): 60h
+
+- Dialogue pastoral et résolution des conflits: 45h
+
+COURS A CARACTERE GENERAL
+- Notion des droits humains: 50h
+- Introduction à la psychologie générale: 45h
+- Développement communautaire: 45h
+- Agriculture et élévage: 60h
+- Santé et secourisme (Croix Rouge): 50h
+
+NB: La formation prendra deux (2) ans inclus deux (2) mois de stage et quatre (4) mois de pratique ministérielle.
