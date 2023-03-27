@@ -6,8 +6,6 @@ import '../styling/Slider.scss';
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
-  // slideLength = 1 2 3
-  // currentSlide = 0 1 2
 
   const autoScroll = true;
   let slideInterval;
@@ -39,7 +37,7 @@ const Slider = () => {
   return (
     <div className="slider">
       <h1 className="main-title">
-        Communauté de la Foi Chrétienne dans le Monde
+        Communauté de la Foi Chrétienne dans le Monde (C.F.C.M)
       </h1>
       <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
