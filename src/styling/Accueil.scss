@@ -19,10 +19,202 @@ $main-color: #0072bc;
       padding: 10px 0 0 0;
     }
   }
+
+  /* Home Page */
+  .main-program {
+    background-image: url("../images/black-brick-bd.jfif");
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: 0.5s;
+    z-index: -2;
+
+    h2 {
+      padding-top: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .div-main-program {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      background: #282b32cc;
+      justify-content: center;
+      flex-direction: column;
+
+      h2 {
+        cursor: pointer;
+      }
+
+      h2:hover {
+        transition: 0.3s ease-in-out;
+      }
+
+      .underline {
+        display: block;
+        margin: 15px auto 30px auto;
+        background: $main-color;
+        width: 70px;
+        height: 3px;
+      }
+
+      button {
+        display: block;
+        color: white;
+        background: $main-color;
+        padding: 20px 40px;
+        width: fit-content;
+        margin: 35px auto 50px auto;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s ease-out;
+        background-image: linear-gradient(to top, #004b7d, #01385e);
+        -webkit-transition: all 0.2s;
+        -webkit-border-radius: 25px;
+      }
+
+      button:hover {
+        background-image: linear-gradient(to top, #01385e, #004b7d);
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .program-flex {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+
+        .program {
+          display: grid;
+          grid-template-columns: 12% 26% 50%;
+          align-content: center;
+          justify-content: center;
+          gap: 15px;
+          padding: 15px;
+          background: #eceff01a;
+          height: 90px;
+          margin: 0 auto;
+          width: 90%;
+          transition: transform 0.3s ease-in-out;
+
+          i {
+            color: $main-color;
+            font-size: 40px;
+            align-self: center;
+            margin: 0;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+          }
+
+          i:hover {
+            color: $main-color;
+            transform: rotateY(180deg);
+          }
+
+          h3 {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            align-self: center;
+            margin: 0;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+          }
+
+          h3:hover {
+            color: white;
+            text-decoration: underline;
+          }
+
+          p {
+            color: white;
+            font-size: small;
+            margin: auto 0;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+          }
+        }
+      }
+
+      .program:hover {
+        border: 2px solid $main-color;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .see-whole-program {
+    display: block;
+    margin: 0 auto 60px auto;
+    color: white;
+  }
+
+  .see-whole-program:hover {
+    color: $main-color;
+  }
 }
 
 @media (min-width: 992px) {
   .div-accueil {
     padding-top: 2.9rem;
+  }
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 768px) {
+  .div-main-program button {
+    margin: 0;
+  }
+
+  .program-flex {
+    margin: 0 auto !important;
+    padding: 0;
+    display: flex;
+    width: 90% !important;
+    height: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 5px;
+
+    .program {
+      display: grid !important;
+      grid-template-rows: 1fr 1fr 2.5fr !important;
+      grid-template-columns: 1fr !important;
+      gap: 10px !important;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 5% !important;
+      padding: 30px 15px 0 15px;
+
+      p {
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .see-whole-program {
+    display: block !important;
+    margin: 0 auto 60px auto !important;
+    color: white;
+  }
+
+  .see-whole-program:hover {
+    color: $main-color;
   }
 }
