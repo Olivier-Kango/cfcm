@@ -109,6 +109,10 @@ $main-color: #0072bc;
           width: 90%;
           transition: transform 0.3s ease-in-out;
 
+          .male-female {
+            display: flex;
+          }
+
           i {
             color: $main-color;
             font-size: 40px;
@@ -199,6 +203,10 @@ $main-color: #0072bc;
       text-align: center;
       height: 5% !important;
       padding: 30px 15px 0 15px;
+
+      .male-female {
+        display: unset;
+      }
 
       p {
         align-self: flex-start;

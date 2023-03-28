@@ -56,7 +56,7 @@ const Accueil = () => (
             <p>Par immersion comme acte de soumission au Seigneur et acquis par tout chrétien.</p>
           </div>
           <div className="program">
-            <i>
+            <i className="male-female">
               <FontAwesomeIcon icon={faMale} />
               <FontAwesomeIcon icon={faFemale} />
             </i>
