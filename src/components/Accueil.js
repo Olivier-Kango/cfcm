@@ -71,7 +71,7 @@ const Accueil = () => (
             <p>La Sainteté dans la pensée, dans la parole et dans la conduite.</p>
           </div>
         </div>
-        <Link to="/formations">
+        <Link to="/formation">
           <button type="button">
             Voir nos Formations
           </button>
