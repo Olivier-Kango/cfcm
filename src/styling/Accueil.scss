@@ -223,6 +223,6 @@ $main-color: #0072bc;
   }
 
   .see-whole-program:hover {
-    color: $main-color;
+    text-decoration: underline !important;
   }
 }
