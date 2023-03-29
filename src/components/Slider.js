@@ -52,7 +52,7 @@ const Slider = ({ onLoad }) => {
         >
           {index === currentSlide && (
           <>
-            <img src={slide.image} alt="slide" onLoad={onLoad} />
+            <img src={slide.image} alt="slide" onLoad={onLoad} className="img-slide" />
             <div className="content">
               <h2>{slide.heading}</h2>
               <p>{slide.desc}</p>
