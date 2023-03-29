@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import sliderData from './Slider-data';
 import '../styling/Slider.scss';
 
-const Slider = () => {
+const Slider = ({ onLoad }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
 
@@ -51,7 +52,7 @@ const Slider = () => {
         >
           {index === currentSlide && (
           <>
-            <img src={slide.image} alt="slide" />
+            <img src={slide.image} alt="slide" onLoad={onLoad} />
             <div className="content">
               <h2>{slide.heading}</h2>
               <p>{slide.desc}</p>
@@ -62,6 +63,10 @@ const Slider = () => {
       ))}
     </div>
   );
+};
+
+Slider.propTypes = {
+  onLoad: PropTypes.func.isRequired,
 };
 
 export default Slider;
