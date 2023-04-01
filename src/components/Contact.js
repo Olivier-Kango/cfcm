@@ -19,7 +19,7 @@ const Contact = () => (
       <br />
       E-mail:
       {' '}
-      <span>IbtmCfcm@gmail.com</span>
+      <span>cfcmgoma@gmail.com</span>
     </p>
   </div>
 );
