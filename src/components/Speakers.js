@@ -5,7 +5,7 @@ import faustinImage from '../images/leaders/faustin.jpg';
 import hamuliImage from '../images/leaders/hamuli.png';
 import brigitteImage from '../images/leaders/brigitte.png';
 import squareImage from '../images/leaders/square.jpg';
-import josueImage from '../images/leaders/josue.jpg';
+import josueImage from '../images/leaders/josue.jpeg';
 import '../styling/Speakers.scss';
 
 const speakerContent = [
