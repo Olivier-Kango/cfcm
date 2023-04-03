@@ -106,4 +106,3 @@ COURS A CARACTERE GENERAL
 - Santé et secourisme (Croix Rouge): 50h
 
 NB: La formation prendra deux (2) ans inclus deux (2) mois de stage et quatre (4) mois de pratique ministérielle.
-
