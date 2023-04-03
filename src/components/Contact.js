@@ -2,7 +2,7 @@ import React from 'react';
 import '../styling/Contact.scss';
 
 const Contact = () => (
-  <div className="contact" data-aos="fade-up">
+  <div className="contact">
     <h4>
       COMMUNAUTE DE LA FOI CHRETIENNE DANS LE MONDE
     </h4>
