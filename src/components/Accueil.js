@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Slider from './Slider';
 import Speakers from './Speakers';
-import LoadingAnimation from './LoadingAnimation';
+// import LoadingAnimation from './LoadingAnimation';
 
 const Accueil = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -28,7 +28,7 @@ const Accueil = () => {
 
   return (
     <div className="div-accueil">
-      {!imagesLoaded && <LoadingAnimation />}
+      {/* {!imagesLoaded && <LoadingAnimation />} */}
       <>
         <section className="home">
           <div className="div-home">
