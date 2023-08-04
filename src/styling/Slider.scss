@@ -15,7 +15,7 @@ $main-color: #0072bc;
     height: 150%;
     padding-left: 0;
     transform: translateX(-32%);
-    animation: trans 15s;
+    // animation: trans 15s;
     display: inherit;
   }
 
@@ -46,6 +46,7 @@ $main-color: #0072bc;
   opacity: 0;
   // transform: translateX(-50%);
   transition: all 0.5s ease;
+  background: red;
 }
 
 .content {
@@ -154,7 +155,7 @@ $main-color: #0072bc;
       display: block;
       margin: 0 auto;
       transform: translateX(0);
-      animation: zoom 15s;
+      // animation: zoom 15s;
     }
 
     .main-title {
