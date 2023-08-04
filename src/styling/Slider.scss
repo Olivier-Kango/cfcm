@@ -8,11 +8,10 @@ $main-color: #0072bc;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  object-fit: cover;
 
   img {
     width: unset;
-    height: 150%;
+    // height: 150%;
     padding-left: 0;
     transform: translateX(-32%);
     // animation: trans 15s;
@@ -150,12 +149,13 @@ $main-color: #0072bc;
   .slider {
     img {
       width: 100%;
-      height: unset;
+      height: 100%;
       padding-top: 0;
       display: block;
       margin: 0 auto;
       transform: translateX(0);
       // animation: zoom 15s;
+      object-fit: cover;
     }
 
     .main-title {
