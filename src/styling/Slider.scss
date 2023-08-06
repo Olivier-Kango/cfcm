@@ -47,14 +47,6 @@ $main-color: #0072bc;
   transition: all 0.5s ease;
 }
 
-.slide:nth-child(1) {
-  transform: translateX(-100%);
-}
-
-.slide.active {
-  transform: translateX(0%);
-}
-
 .content {
   position: absolute;
   top: 40%;
