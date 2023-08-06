@@ -43,8 +43,17 @@ $main-color: #0072bc;
   height: 100%;
   opacity: 0;
   transform: translateX(-50%);
+  opacity: 1;
   // pointer-events: none;
   transition: all 0.5s ease;
+}
+
+.slide:nth-child(1) {
+  transform: translateX(-100%);
+}
+
+.slide.active {
+  transform: translateX(0%);
 }
 
 .content {
