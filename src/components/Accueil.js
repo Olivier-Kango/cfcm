@@ -108,9 +108,9 @@ const Accueil = () => {
           </div>
         </section>
         <Speakers />
-        <footer>
+        {/* <footer>
           {' '}
-        </footer>
+        </footer> */}
       </>
     </div>
   );
