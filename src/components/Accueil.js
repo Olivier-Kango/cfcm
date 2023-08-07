@@ -108,6 +108,9 @@ const Accueil = () => {
           </div>
         </section>
         <Speakers />
+        <footer>
+          {' '}
+        </footer>
       </>
     </div>
   );
