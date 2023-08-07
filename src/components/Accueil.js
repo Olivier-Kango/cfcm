@@ -7,7 +7,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Slider from './Slider';
 import Speakers from './Speakers';
-// import LoadingAnimation from './LoadingAnimation';
 
 const Accueil = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
