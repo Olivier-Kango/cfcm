@@ -27,7 +27,6 @@ const Accueil = () => {
 
   return (
     <div className="div-accueil">
-      {/* {!imagesLoaded && <LoadingAnimation />} */}
       <>
         <section className="home">
           <div className="div-home">
