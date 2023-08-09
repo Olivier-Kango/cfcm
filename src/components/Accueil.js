@@ -108,7 +108,8 @@ const Accueil = () => {
           </div>
         </section>
         <Speakers />
-        <footer id="montagnes">
+        <footer id="footer">
+          {' '}
         </footer>
       </>
     </div>
