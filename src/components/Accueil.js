@@ -109,14 +109,7 @@ const Accueil = () => {
         </section>
         <Speakers />
         <footer id="montagnes">
-      <nav>
-        <a id="landscape" href="#">
-          <img class="logo logo-foot" src="assets/images/favicon.png" alt="mountains-logo">
-          <h3 class="mountains-logo"><span>MAJESTIC</span><span>EARTH</span></h3>
-        </a>
-        <p id="copyright"></p>
-      </nav>
-    </footer>
+        </footer>
       </>
     </div>
   );
