@@ -1,0 +1,35 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+  
+  .contact-info, .social-media {
+    flex: 1;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    a {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
