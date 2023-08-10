@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
   <>
@@ -16,7 +16,7 @@ const Footer = () => (
           <a href="https://web.facebook.com/profile.php?id=100082159523264">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/@eglisecfcm-ci5kn">
             <FontAwesomeIcon icon={faYoutube} />
           </a>
         </div>
