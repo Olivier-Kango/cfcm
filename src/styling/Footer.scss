@@ -77,7 +77,7 @@
 
 @media (max-width: 768px) {
   .footer-content {
-    flex-direction: column;
+    flex-direction: column !important;
     text-align: center;
     padding: 15px;
   }
