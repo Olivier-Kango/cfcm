@@ -24,7 +24,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="copyright">
-      <p>&copy; 2023 Nom de Votre Église. Tous droits réservés.</p>
+      <p>&copy; 2023 Église C.F.C.M. Tous droits réservés.</p>
     </div>
   </>
 );
