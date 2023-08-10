@@ -9,7 +9,7 @@ const Footer = () => (
       <div className="contact-info">
         <h4>Nous contacter</h4>
         <p>Email : cfcmgoma@gmail.com</p>
-        <p>Téléphone : +123 456 7890</p>
+        <p>Téléphone :  (+243)995-865-149; (+243)997-604-877</p>
       </div>
       <div className="social-media">
         <h4>Suivez-nous sur les réseaux sociaux</h4>
