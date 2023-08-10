@@ -14,10 +14,10 @@ const Footer = () => (
       <div className="social-media">
         <h4>Suivez-nous sur les réseaux sociaux</h4>
         <div className="social-icons">
-          <a href="https://web.facebook.com/profile.php?id=100082159523264">
+          <a href="https://web.facebook.com/profile.php?id=100082159523264" className="facebook">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://www.youtube.com/@eglisecfcm-ci5kn">
+          <a href="https://www.youtube.com/@eglisecfcm-ci5kn" className="youtube">
             <FontAwesomeIcon icon={faYoutube} />
           </a>
         </div>
