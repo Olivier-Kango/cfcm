@@ -7,6 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Slider from './Slider';
 import Speakers from './Speakers';
+import Footer from './Footer';
 
 const Accueil = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
@@ -109,7 +110,7 @@ const Accueil = () => {
         </section>
         <Speakers />
         <footer id="footer">
-          
+          <Footer />
         </footer>
       </>
     </div>
