@@ -29,8 +29,7 @@ $main-color: #0072bc;
     margin: 0;
     background-repeat: repeat;
     background-position: center;
-    background-size: cover;
-    background-size: 100% 100%;
+    background-size: contain;
     transition: 0.5s;
     z-index: -2;
 
