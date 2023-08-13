@@ -18,8 +18,8 @@ const speakerContent = [
   {
     imageSpeaker: pascalImage,
     fName: 'Pascale Nyenyezi Nkengwa',
-    profession: 'Pacale Nkengwa est le président des jeunes',
-    about: 'Pascale Nkengwa est un électricien de formation mais qui actuellement sert le Seigneur à temps plein',
+    profession: 'Pascale Nkengwa est le président des jeunes',
+    about: "Initialement formé en tant qu'électricien, Pascale Nkengwa a fait le noble choix de consacrer tout son temps au service du Seigneur.",
   },
   {
     imageSpeaker: faustinImage,
