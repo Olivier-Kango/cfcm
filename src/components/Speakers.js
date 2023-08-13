@@ -25,7 +25,7 @@ const speakerContent = [
     imageSpeaker: faustinImage,
     fName: 'Faustin Lwaboshi',
     profession: "Faustin est le président de l'équipe chargé d'adoration",
-    about: 'Il est licencié et un chantre fervent, servant le Seigneur depuis son jeune âge.',
+    about: 'Faustin est un chantre fervent, dévoué au service du Seigneur depuis sa jeunesse.',
   },
   {
     imageSpeaker: josueImage,
