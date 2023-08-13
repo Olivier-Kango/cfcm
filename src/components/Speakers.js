@@ -12,8 +12,7 @@ const speakerContent = [
   {
     imageSpeaker: kalengaImage,
     fName: 'Watimbwa Kalenga',
-    profession: "Watimbwa Kalenga est le pasteur de l'Eglise C.F.C.M",
-    about: "Etant un technicien de formation, après avoir reçu l'appel du Seigneur, Kalenga a décidé de tout quitté pour se consacrer à temps plein dans le ministère. En 2005, Il a eu la merveille vision de commencé la communauté C.F.C.M",
+    profession: "Après avoir reçu l'appel du Seigneur, Kalenga, qui était technicien de formation, a décidé de tout quitter pour se consacrer à temps plein au ministère. En 2005, il a eu la merveilleuse vision de commencer la communauté C.F.C.M.",
   },
   {
     imageSpeaker: pascalImage,
