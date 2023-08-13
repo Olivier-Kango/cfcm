@@ -30,8 +30,8 @@ const speakerContent = [
   {
     imageSpeaker: josueImage,
     fName: 'Josué Mulindwa',
-    profession: 'Josué est chargé du média',
-    about: 'Il a fini ses études en environement, il est entrepreneur et a décidé de mettre son talent au service du Seigneur dans le média.',
+    profession: 'Josué est responsable des médias.',
+    about: "Après avoir achevé ses études en environnement, Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias.",
   },
   {
     imageSpeaker: hamuliImage,
