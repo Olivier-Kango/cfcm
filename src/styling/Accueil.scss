@@ -115,8 +115,9 @@ $main-color: #0072bc;
 
           i {
             color: $main-color;
-            font-size: 35px;
+            font-size: 32px;
             align-self: center;
+            background: red;
             margin: 0;
             cursor: pointer;
             transition: all 0.2s ease-out;
