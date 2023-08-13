@@ -37,7 +37,7 @@ const speakerContent = [
     imageSpeaker: hamuliImage,
     fName: 'Papa Hamuli',
     profession: 'Papa Hamuli est le président des Papas',
-    about: 'Il a fini ses études à en mécanique et travaille comme Ingénieur mécanicien chez PAM.',
+    about: "Il a achevé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur mécanicien au sein de l'entreprise PAM.",
   },
   {
     imageSpeaker: brigitteImage,
