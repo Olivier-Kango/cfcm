@@ -24,7 +24,13 @@ const Footer = () => (
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2023 Église C.F.C.M. Tous droits réservés.</p>
+        <p>
+          &copy;
+          {' '}
+          {new Date().getFullYear()}
+          {' '}
+          Église C.F.C.M. Tous droits réservés.
+        </p>
       </div>
     </div>
   </>
