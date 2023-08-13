@@ -50,7 +50,7 @@ const speakerContent = [
 export default function Speakers() {
   return (
     <section className="speakers">
-      <h2 className="title-speakers">Leaders de la Communauté C.F.C.M</h2>
+      <h2 className="title-speakers">Leaders au sein de la C.F.C.M</h2>
       <div className="underline" />
       <div className="div-speakers">
         {speakerContent.map((content) => (
