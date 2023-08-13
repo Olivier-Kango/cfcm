@@ -4,7 +4,7 @@ import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import '../styling/Footer.scss';
 
 const Footer = () => (
-  <>
+  <div id="footer">
     <div className="footer-content">
       <div className="contact-info">
         <h4>Nous contacter</h4>
@@ -33,7 +33,7 @@ const Footer = () => (
         Église C.F.C.M. Tous droits réservés.
       </p>
     </div>
-  </>
+  </div>
 );
 
 export default Footer;
