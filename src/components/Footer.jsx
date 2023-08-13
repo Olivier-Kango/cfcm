@@ -23,15 +23,15 @@ const Footer = () => (
           </a>
         </div>
       </div>
-      <div className="copyright">
-        <p>
-          &copy;
-          {' '}
-          {new Date().getFullYear()}
-          {' '}
-          Église C.F.C.M. Tous droits réservés.
-        </p>
-      </div>
+    </div>
+    <div className="copyright">
+      <p>
+        &copy;
+        {' '}
+        {new Date().getFullYear()}
+        {' '}
+        Église C.F.C.M. Tous droits réservés.
+      </p>
     </div>
   </>
 );
