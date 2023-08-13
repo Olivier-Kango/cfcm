@@ -12,7 +12,6 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
-    "caniuse-lite": "^1.0.30001520",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.41",
     "prop-types": "^15.8.1",
