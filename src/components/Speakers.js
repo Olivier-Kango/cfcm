@@ -2,7 +2,7 @@ import React from 'react';
 import kalengaImage from '../images/leaders/kalenga.jpg';
 import pascalImage from '../images/leaders/pascal.jpg';
 import faustinImage from '../images/leaders/faustin.jpg';
-import hamuliImage from '../images/leaders/hamuli.png';
+import hamuliImage from '../images/leaders/hamuli.jpg';
 import brigitteImage from '../images/leaders/brigitte.png';
 import squareImage from '../images/leaders/square.jpg';
 import josueImage from '../images/leaders/josue.jpeg';
