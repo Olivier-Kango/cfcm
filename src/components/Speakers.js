@@ -12,7 +12,7 @@ const speakerContent = [
   {
     imageSpeaker: kalengaImage,
     fName: 'Watimbwa Kalenga',
-    profession: "Watimbwa Kalenga est le pasteur de l'Eglise C.F.C.M",
+    profession: "Pst Watimbwa Kalenga est le pasteur de l'Eglise C.F.C.M",
     about: "Après avoir reçu l'appel du Seigneur, Kalenga, qui était technicien de formation, a décidé de tout quitter pour se consacrer à temps plein au ministère. En 2005, il a eu la merveilleuse vision de commencer la communauté C.F.C.M.",
   },
   {
@@ -30,13 +30,13 @@ const speakerContent = [
   {
     imageSpeaker: josueImage,
     fName: 'Josué Mulindwa',
-    profession: 'Josué est responsable des médias.',
+    profession: 'Josué Mulindwa est responsable des médias.',
     about: "Après avoir achevé ses études en environnement, Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias.",
   },
   {
     imageSpeaker: hamuliImage,
     fName: 'Hamuli Mirindi Jean Pierre',
-    profession: 'Hamuli Mirindi est responsable au sein du groupe des Papas.',
+    profession: 'M. Hamuli Mirindi est responsable au sein du groupe des Papas.',
     about: "Il a achevé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur mécanicien au sein de l'entreprise PAM.",
   },
   {
