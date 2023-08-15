@@ -36,7 +36,7 @@ const speakerContent = [
   {
     imageSpeaker: hamuliImage,
     fName: 'Papa Hamuli',
-    profession: 'Papa Hamuli est responsable au sein du groupe des Papas.',
+    profession: 'Hamuli Mirindi Jean Pierre est responsable au sein du groupe des Papas.',
     about: "Il a achevé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur mécanicien au sein de l'entreprise PAM.",
   },
   {
