@@ -21,11 +21,11 @@ const Footer = () => {
             {' '}
             cfcmgoma@gmail.com
           </p>
-          <p>
+          <p className="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
             (+243)995-865-149
           </p>
-          <p>
+          <p className="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
             (+243)997-604-877
           </p>
