@@ -73,6 +73,10 @@
     margin: 0;
   }
 
+  .contact-info p:nth-child(1):hover {
+    text-decoration: underline;
+  }
+
   .footer-content span {
     color: #fff;
   }
