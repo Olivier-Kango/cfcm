@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="contact-info">
           <h4>Nous contacter</h4>
-          <p>
+          <p className="mail">
             <FontAwesomeIcon icon={faEnvelope} />
             {' '}
             cfcmgoma@gmail.com

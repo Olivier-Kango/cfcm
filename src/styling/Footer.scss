@@ -73,8 +73,9 @@
     margin: 0;
   }
 
-  .contact-info p:nth-child(1):hover {
+  .mail:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 
   .footer-content span {
