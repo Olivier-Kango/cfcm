@@ -13,6 +13,7 @@ const Footer = () => {
 
   const gmailIconStyle = {
     marginRight: '5px',
+    color: 'white',
   };
 
   return (
