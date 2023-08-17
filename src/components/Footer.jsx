@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="mail">
             <FontAwesomeIcon icon={faEnvelope} />
             {' '}
-            cfcmgoma@gmail.com
+            &emsp;cfcmgoma@gmail.com
           </p>
           <p className="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
