@@ -21,15 +21,21 @@ const Footer = () => {
         <div className="contact-info">
           <h4>Nous contacter </h4>
           <p className="mail">
-            <FontAwesomeIcon icon={faEnvelope} style={gmailIconStyle} />
+            <a href="mailto:cfcmgoma@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} style={gmailIconStyle} />
+            </a>
             cfcmgoma@gmail.com
           </p>
           <p className="whatsapp">
-            <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+            <a href="https://api.whatsapp.com/send?phone=+243995865149">
+              <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+            </a>
             (+243)995-865-149
           </p>
           <p className="whatsapp">
-            <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+            <a href="https://api.whatsapp.com/send?phone=+243997604877">
+              <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+            </a>
             (+243)997-604-877
           </p>
         </div>
