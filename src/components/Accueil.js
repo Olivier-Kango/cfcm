@@ -19,13 +19,6 @@ const Accueil = () => {
     }
   };
 
-  // Disable scroll when images are not loaded
-  if (!imagesLoaded) {
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.body.style.overflow = 'auto';
-  }
-
   return (
     <div className="div-accueil">
       <>
