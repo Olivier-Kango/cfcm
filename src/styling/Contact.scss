@@ -16,6 +16,22 @@
       color: #f5f5f5;
       text-decoration: none;
       transition: color 0.3s;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+      }
     }
 
     .facebook:hover {
