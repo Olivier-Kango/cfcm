@@ -9,7 +9,11 @@ const Footer = () => (
     <div className="footer-content">
       <div className="contact-info">
         <h4>Nous contacter</h4>
-        <p>Email : cfcmgoma@gmail.com</p>
+        <p>
+          <FontAwesomeIcon icon={faEnvelope} />
+          {' '}
+          cfcmgoma@gmail.com
+        </p>
         <p>Téléphone 1 :  (+243)995-865-149</p>
         <p>Téléphone 2 :  (+243)997-604-877</p>
       </div>
