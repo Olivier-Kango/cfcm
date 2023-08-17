@@ -11,7 +11,7 @@ const Footer = () => (
         <h4>Nous contacter</h4>
         <p>
           <FontAwesomeIcon icon={faEnvelope} />
-          {'  '}
+          {' '}
           cfcmgoma@gmail.com
         </p>
         <p>Téléphone 1 :  (+243)995-865-149</p>
