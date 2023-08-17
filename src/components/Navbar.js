@@ -69,13 +69,13 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li className="nav-item">
-              <Link to="/direct" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/direct') ? 'directLink' : 'direct-button'}>Direct</span>
+              <Link to="/contact" className="nav-link active">
+                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/contact') ? 'currentLink' : ''}>Contact</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link active">
-                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/contact') ? 'currentLink' : ''}>Contact</span>
+              <Link to="/direct" className="nav-link active">
+                <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" className={(pathname === '/direct') ? 'directLink' : 'direct-button'}>Direct</span>
               </Link>
             </li>
             <li className="nav-item">
