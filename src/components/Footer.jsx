@@ -28,13 +28,13 @@ const Footer = () => {
             cfcmgoma@gmail.com
           </p>
           <p className="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=+243995865149">
+            <a href="https://wa.me/243995865149" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
             </a>
             (+243)995-865-149
           </p>
           <p className="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=+243997604877">
+            <a href="https://wa.me/243997604877" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
             </a>
             (+243)997-604-877
