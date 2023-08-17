@@ -11,15 +11,18 @@ const Footer = () => {
     fontSize: '1.2em'
   };
 
+  const gmailIconStyle = {
+    marginRight: '5px',
+  };
+
   return (
     <div id="footer">
       <div className="footer-content">
         <div className="contact-info">
-          <h4>Nous contacter</h4>
+          <h4>Nous contacter </h4>
           <p className="mail">
-            <FontAwesomeIcon icon={faEnvelope} />
-            {' '}
-            &ensp;cfcmgoma@gmail.com
+            <FontAwesomeIcon icon={faEnvelope} style={gmailIconStyle} />
+            cfcmgoma@gmail.com
           </p>
           <p className="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
