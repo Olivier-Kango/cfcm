@@ -22,7 +22,7 @@ const Footer = () => {
           <h4>Nous contacter </h4>
           <p className="mail">
             <FontAwesomeIcon icon={faEnvelope} style={gmailIconStyle} />
-            &ensp;cfcmgoma@gmail.com
+            cfcmgoma@gmail.com
           </p>
           <p className="whatsapp">
             <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
