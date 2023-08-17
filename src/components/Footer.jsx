@@ -8,7 +8,7 @@ const Footer = () => {
   const whatsappIconStyle = {
     color: 'green',
     marginRight: '5px',
-    fontSize: '1.2em'
+    fontSize: '1.2em',
   };
 
   const gmailIconStyle = {
@@ -63,6 +63,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;
