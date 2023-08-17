@@ -4,7 +4,14 @@ import { faFacebook, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styling/Footer.scss';
 
-const Footer = () => (
+const Footer = () => {
+  const whatsappIconStyle = {
+    color: 'green',
+    marginRight: '5px',
+    fontSize: '1.2em'
+  };
+
+  return (
   <div id="footer">
     <div className="footer-content">
       <div className="contact-info">
@@ -15,11 +22,11 @@ const Footer = () => (
           cfcmgoma@gmail.com
         </p>
         <p>
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
           (+243)995-865-149
         </p>
         <p>
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
           (+243)997-604-877
         </p>
       </div>
@@ -45,6 +52,7 @@ const Footer = () => (
       </p>
     </div>
   </div>
-);
+  );
+}
 
 export default Footer;
