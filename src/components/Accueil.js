@@ -10,7 +10,7 @@ import Speakers from './Speakers';
 import Footer from './Footer';
 
 const Accueil = () => {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [, setImagesLoaded] = useState(false);
 
   const handleImageLoad = () => {
     const images = document.querySelectorAll('img');

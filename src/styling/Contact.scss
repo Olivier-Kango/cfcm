@@ -61,4 +61,13 @@
       color: #f00;
     }
   }
+
+  .copyright p {
+    position: absolute;
+    text-align: center;
+    color: white !important;
+    padding: 0;
+    margin: 0 !important;
+    margin-top: 20px;
+  }
 }
