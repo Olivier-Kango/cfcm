@@ -20,8 +20,6 @@ const Programmes = () => (
         Culte d&apos;adoration de 9h00 à 12h30
         <br />
         (diffusé en Live) 🔴
-        <br />
-        Culte des Jeunes de 13h00 à 14h30
       </div>
       <div className="programme-item">
         <img src={mardiImage} alt="Church" />
