@@ -24,14 +24,14 @@ const speakerContent = [
   {
     imageSpeaker: faustinImage,
     fName: 'Faustin Lwaboshi',
-    profession: "Faustin est le président de l'équipe chargée d'adoration.",
+    profession: "Fr Faustin est le président de l'équipe chargée d'adoration.",
     about: 'Le frère Faustin est un chantre fervent, dévoué au service du Seigneur depuis sa jeunesse.',
   },
   {
     imageSpeaker: josueImage,
     fName: 'Josué Mulindwa',
-    profession: 'Josué Mulindwa est responsable des médias.',
-    about: "Après avoir achevé ses études en environnement, Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias.",
+    profession: 'Fr Josué Mulindwa est responsable des médias.',
+    about: "Après avoir achevé ses études en environnement, Le frère Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias.",
   },
   {
     imageSpeaker: hamuliImage,
