@@ -13,19 +13,19 @@ const speakerContent = [
     imageSpeaker: kalengaImage,
     fName: 'Watimbwa Kalenga',
     profession: "Pst Watimbwa Kalenga est le pasteur de l'Eglise C.F.C.M",
-    about: "Après avoir reçu l'appel du Seigneur, Kalenga, qui était technicien de formation, a décidé de tout quitter pour se consacrer à temps plein au ministère. En 2005, il a eu la merveilleuse vision de commencer la communauté C.F.C.M.",
+    about: "Après avoir reçu l'appel du Seigneur, le Pasteur Kalenga, qui était architecte et technicien de formation, a décidé de tout quitter pour se consacrer à temps plein au ministère. En 2005, il a eu la merveilleuse vision de commencer la communauté C.F.C.M.",
   },
   {
     imageSpeaker: pascalImage,
     fName: 'Pascale Nyenyezi Nkengwa',
-    profession: 'Pascale Nkengwa est le président des jeunes',
-    about: "Initialement formé en tant qu'électricien, Pascale Nkengwa a fait le noble choix de consacrer tout son temps au service du Seigneur.",
+    profession: 'Pascale Nkengwa est le responsable de la jeunesse',
+    about: "Initialement formé en tant qu'électricien, le frère Pascale Nkengwa a fait le noble choix de consacrer tout son temps au service du Seigneur.",
   },
   {
     imageSpeaker: faustinImage,
     fName: 'Faustin Lwaboshi',
     profession: "Faustin est le président de l'équipe chargée d'adoration.",
-    about: 'Faustin est un chantre fervent, dévoué au service du Seigneur depuis sa jeunesse.',
+    about: 'Le frère Faustin est un chantre fervent, dévoué au service du Seigneur depuis sa jeunesse.',
   },
   {
     imageSpeaker: josueImage,
@@ -36,7 +36,7 @@ const speakerContent = [
   {
     imageSpeaker: hamuliImage,
     fName: 'Hamuli Mirindi Jean Pierre',
-    profession: 'M. Hamuli Mirindi est responsable au sein du groupe des Papas.',
+    profession: 'Papa Hamuli est responsable au sein du groupe des Papas.',
     about: "Il a achevé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur mécanicien au sein de l'entreprise PAM.",
   },
   {
