@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[C.F.C.M_Church](https://cfcm.netlify.app/)
+[C.F.C.M_Church](https://www.eglisecfcm.org)
 
 ### Prerequisites
 
