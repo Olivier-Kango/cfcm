@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import '../styling/Direct.scss';
 
 const Direct = () => {
@@ -70,6 +72,14 @@ const Direct = () => {
           Sec
         </p>
       )}
+      <div className="social-icons">
+        <a href="https://web.facebook.com/profile.php?id=100082159523264" className="facebook">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a href="https://www.youtube.com/@eglisecfcm-ci5kn" className="youtube">
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
+      </div>
     </div>
   );
 };
