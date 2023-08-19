@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styling/Programmes.scss';
-import dimancheImage from '../images/programmes/dimanche.webp';
+import dimancheImage from '../images/programmes/dimanche.jpg';
 import affermissementsImage from '../images/programmes/affermissements.jpg';
 import mardiImage from '../images/programmes/mardi.jpg';
 import vendrediImage from '../images/programmes/vendredi.jpg';
