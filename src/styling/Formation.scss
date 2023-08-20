@@ -83,6 +83,7 @@ $primary-color: #336c8f;
       justify-content: space-between;
       align-items: center;
       position: relative;
+      overflow: hidden;
 
       & > div:first-of-type {
         padding: 25px;
@@ -101,7 +102,7 @@ $primary-color: #336c8f;
         height: 100%;
 
         &:hover {
-          transform: scale(1.025);
+          transform: scale(1.025) translateX(1.2%);
         }
       }
 
