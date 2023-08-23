@@ -22,6 +22,13 @@ const Programmes = () => (
         (diffusé en Live) 🔴
       </div>
       <div className="programme-item">
+        <img src={matinalImage} alt="Church" />
+        <h3>CULTE MATINAL</h3>
+        Du lundi au vendredi
+        <br />
+        De 5h30 à 6h30
+      </div>
+      <div className="programme-item">
         <img src={mardiImage} alt="Church" />
         <h3>MARDI</h3>
         Culte des Mamans
@@ -41,13 +48,6 @@ const Programmes = () => (
         Culte des Papas de 7h30 à 09h00
         <br />
         Intercession de 09h00 à 12h00
-      </div>
-      <div className="programme-item">
-        <img src={matinalImage} alt="Church" />
-        <h3>CULTE MATINAL</h3>
-        Du lundi au vendredi
-        <br />
-        De 5h30 à 6h30
       </div>
       <div className="programme-item">
         <img src={jeunesImage} alt="Church" />
