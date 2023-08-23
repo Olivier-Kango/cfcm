@@ -12,23 +12,16 @@ const Slider = ({ onLoad }) => {
   let slideInterval;
   const intervalTime = 7000;
 
-  const [isTransitioning, setIsTransitioning] = useState(false);
   const [slideDirection, setSlideDirection] = useState('next');
 
   const nextSlide = () => {
-    if (!isTransitioning) {
-      setIsTransitioning(true);
-      setSlideDirection('next');
-      setCurrentSlide((prevSlide) => (prevSlide === slideLength - 1 ? 0 : prevSlide + 1));
-    }
+    setSlideDirection('next');
+    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
   };
 
   const prevSlide = () => {
-    if (!isTransitioning) {
-      setIsTransitioning(true);
-      setSlideDirection('prev');
-      setCurrentSlide((prevSlide) => (prevSlide === 0 ? slideLength - 1 : prevSlide - 1));
-    }
+    setSlideDirection('prev');
+    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
   };
 
   function auto() {
@@ -45,20 +38,6 @@ const Slider = ({ onLoad }) => {
     }
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
-
-  useEffect(() => {
-    if (isTransitioning) {
-      const transitionTimeout = setTimeout(() => {
-        setIsTransitioning(false); // Reset transitioning state
-      }, 500); // Adjust timing to match CSS transition duration
-
-      return () => {
-        clearTimeout(transitionTimeout);
-      };
-    }
-
-    return undefined;
-  }, [isTransitioning]);
 
   return (
     <div className="slider">
