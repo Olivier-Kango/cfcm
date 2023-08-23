@@ -25,7 +25,7 @@ const speakerContent = [
     imageSpeaker: faustinImage,
     fName: 'Faustin Lwaboshi',
     profession: "Fr Faustin est le président de l'équipe chargée d'adoration.",
-    about: 'Le frère Faustin est un chantre fervent, dévoué au service du Seigneur depuis sa jeunesse.',
+    about: "Le frère Faustin, qui est un cadre et titulaire d'une licence en psychologie, est un chantre fervent et dévoué au service du Seigneur depuis sa jeunesse.",
   },
   {
     imageSpeaker: josueImage,
@@ -37,7 +37,7 @@ const speakerContent = [
     imageSpeaker: hamuliImage,
     fName: 'Hamuli Mirindi Jean Pierre',
     profession: 'Papa Hamuli est responsable au sein du groupe des Papas.',
-    about: "Papa Hamuli a achevé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur mécanicien au sein de l'entreprise PAM.",
+    about: "Papa Hamuli a terminé ses études en mécanique et exerce actuellement avec succès la fonction d'ingénieur électromécanicien au sein de l'entreprise PAM.",
   },
   {
     imageSpeaker: brigitteImage,
