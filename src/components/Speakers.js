@@ -31,7 +31,7 @@ const speakerContent = [
     imageSpeaker: josueImage,
     fName: 'Josué Mulindwa',
     profession: 'Fr Josué Mulindwa est responsable des médias.',
-    about: "Après avoir achevé ses études en environnement, Le frère Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias.",
+    about: "Après avoir achevé ses études en environnement, le frère Josué s'est lancé en tant qu'entrepreneur. Cependant, il a fait le choix louable de mettre son talent au service du Seigneur dans le domaine des médias à l'église.",
   },
   {
     imageSpeaker: hamuliImage,
