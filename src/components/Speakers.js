@@ -43,7 +43,7 @@ const speakerContent = [
     imageSpeaker: brigitteImage,
     fName: 'Maman Brigitte',
     profession: 'Maman Brigitte occupe le poste de présidente au sein du groupe des Mamans.',
-    about: "Maman Brigitte, en plus d'être mère de plusieurs enfants, exerce également la profession de commerçante.",
+    about: "Maman Brigitte, en plus d'être mariée et mère de plusieurs enfants, exerce également la profession de commerçante.",
   },
 ];
 
