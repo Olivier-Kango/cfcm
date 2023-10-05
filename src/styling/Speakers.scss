@@ -18,6 +18,14 @@ $main-color: #0072bc;
   flex-direction: row;
 }
 
+.background-and-image {
+  transition: transform 0.3s ease;
+}
+
+.background-and-image:hover {
+  transform: scale(1.2);
+}
+
 .square-background {
   position: absolute;
   z-index: -2;
