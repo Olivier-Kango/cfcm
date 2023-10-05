@@ -58,7 +58,7 @@ export default function Speakers() {
     <section className="speakers">
       <h2 className="title-speakers">Leaders au sein de la C.F.C.M</h2>
       <div className="underline" />
-      <div className="div-speakers" data-aos="fade">
+      <div className="div-speakers" data-aos="fade-zoom-in">
         {speakerContent.map((content) => (
           <div key={content.fName} className="featured-speaker">
             <div className="background-and-image">
