@@ -1,7 +1,7 @@
-import React from 'react';
-import kalengaImage from '../images/leaders/kalenga.jpg';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import kalengaImage from '../images/leaders/kalenga.jpg';
 import pascalImage from '../images/leaders/pascal.jpg';
 import faustinImage from '../images/leaders/faustin.jpg';
 import hamuliImage from '../images/leaders/Hamuli.jpg';
@@ -50,11 +50,15 @@ const speakerContent = [
 ];
 
 export default function Speakers() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // initialize AOS
+  }, []);
+
   return (
     <section className="speakers">
       <h2 className="title-speakers">Leaders au sein de la C.F.C.M</h2>
       <div className="underline" />
-      <div className="div-speakers">
+      <div className="div-speakers" data-aos="fade">
         {speakerContent.map((content) => (
           <div key={content.fName} className="featured-speaker">
             <div className="background-and-image">
