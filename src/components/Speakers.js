@@ -58,14 +58,14 @@ export default function Speakers() {
     <section className="speakers">
       <h2 className="title-speakers">Leaders au sein de la C.F.C.M</h2>
       <div className="underline" />
-      <div className="div-speakers" data-aos="fade-left">
+      <div className="div-speakers">
         {speakerContent.map((content) => (
           <div key={content.fName} className="featured-speaker">
             <div className="background-and-image">
-              <img src={squareImage} className="square-background" alt="square_background" />
-              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" />
+              <img src={squareImage} className="square-background" alt="square_background" data-aos="fade-right" />
+              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" data-aos="fade-left" />
             </div>
-            <div className="div-content">
+            <div className="div-content" data-aos="fade-left">
               <h3 className="fname">{content.fName}</h3>
               <p className="profession">{content.profession}</p>
               <div className="line" />
