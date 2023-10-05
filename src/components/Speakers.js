@@ -1,5 +1,6 @@
 import React from 'react';
 import kalengaImage from '../images/leaders/kalenga.jpg';
+import AOS from 'aos';
 import pascalImage from '../images/leaders/pascal.jpg';
 import faustinImage from '../images/leaders/faustin.jpg';
 import hamuliImage from '../images/leaders/Hamuli.jpg';
