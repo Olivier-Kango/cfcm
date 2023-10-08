@@ -62,8 +62,8 @@ export default function Speakers() {
         {speakerContent.map((content) => (
           <div key={content.fName} className="featured-speaker">
             <div className="background-and-image">
-              <img src={squareImage} className="square-background" alt="square_background" data-aos="fade-right" />
-              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" />
+              <img src={squareImage} className="square-background" alt="square_background" data-aos="fade-down" />
+              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" data-aos="fade-up" />
             </div>
             <div className="div-content">
               <h3 className="fname">{content.fName}</h3>
