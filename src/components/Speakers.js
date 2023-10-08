@@ -63,9 +63,9 @@ export default function Speakers() {
           <div key={content.fName} className="featured-speaker">
             <div className="background-and-image">
               <img src={squareImage} className="square-background" alt="square_background" data-aos="fade-right" />
-              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" data-aos="fade-left" />
+              <img src={content.imageSpeaker} className="imageSpeaker" alt="image_speaker" />
             </div>
-            <div className="div-content" data-aos="fade-left">
+            <div className="div-content">
               <h3 className="fname">{content.fName}</h3>
               <p className="profession">{content.profession}</p>
               <div className="line" />
