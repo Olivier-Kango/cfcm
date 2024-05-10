@@ -30,14 +30,14 @@ const Footer = () => {
           <p className="whatsapp">
             <a href="https://wa.me/243995865149" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+              <span>(+243)995-865-149</span>
             </a>
-            (+243)995-865-149
           </p>
           <p className="whatsapp">
             <a href="https://wa.me/243997604877" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
+              <span>(+243)997-604-877</span>
             </a>
-            (+243)997-604-877
           </p>
         </div>
         <div className="social-media">
