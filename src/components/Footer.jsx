@@ -30,8 +30,8 @@ const Footer = () => {
           <p className="whatsapp">
             <a href="https://wa.me/243995865149" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} style={whatsappIconStyle} />
-              (+243)995-865-149
             </a>
+            (+243)995-865-149
           </p>
           <p className="whatsapp">
             <a href="https://wa.me/243997604877" rel="noopener noreferrer">
